@@ -30,4 +30,8 @@
     <!-- Developer options -->
     <string name="dev_options_title">Developer options</string>
     <string name="dev_options_summary">Enable some hidden features at your own risk</string>
+
+    <!-- DT2S -->
+    <string name="pref_sleep_gesture_title">Double tap to sleep</string>
+    <string name="pref_sleep_gesture_summary">Double tap on empty space for screen off</string>
 </resources>
