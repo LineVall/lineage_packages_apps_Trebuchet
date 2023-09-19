@@ -62,7 +62,7 @@
     <string name="pref_sleep_gesture_summary">Double tap on empty space for screen off</string>
 
     <!-- Memory info -->
-    <string name="meminfo_text">%1$s Available | %2$s Total</string>
+    <string name="meminfo_text">%1$s available | %2$s</string>
     <string name="recents_meminfo_title">Memory info</string>
 
 </resources>
