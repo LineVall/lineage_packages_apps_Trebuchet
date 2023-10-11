@@ -79,6 +79,7 @@
 
         <Space
             android:id="@+id/action_lock_space"
+            android:visibility="gone"
             android:layout_width="0dp"
             android:layout_height="1dp"
             android:layout_weight="1" />
@@ -108,15 +109,15 @@
 
         <Space
             android:id="@+id/lens_space"
+            android:visibility="gone" 
             android:layout_width="0dp"
             android:layout_height="1dp"
-            android:layout_weight="1"
-           android:layout_weight="1"
-            android:visibility="gone" />
+            android:layout_weight="1" />
 
         <Button
             android:id="@+id/action_lens"
             style="@style/OverviewActionButton"
+            android:visibility="gone" 
             android:layout_width="60dp"
             android:layout_height="36dp"
             android:foreground="@drawable/ic_lens"
@@ -126,6 +127,7 @@
 
         <Space
             android:id="@+id/kill_app_space"
+            android:visibility="gone" 
             android:layout_width="0dp"
             android:layout_height="1dp"
             android:layout_weight="1" />
@@ -133,6 +135,7 @@
         <Button
             android:id="@+id/kill_app"
             style="@style/CustomOverviewActionButton"
+            android:visibility="gone" 
             android:layout_width="60dp"
             android:layout_height="42dp"
             android:foreground="@drawable/ic_kill_app_recents"
