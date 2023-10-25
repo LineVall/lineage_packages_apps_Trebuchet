@@ -19,4 +19,11 @@
     xmlns:launcher="http://schemas.android.com/apk/res-auto"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.launcher3">
 
+    <!-- Memory info -->
+    <SwitchPreference
+        android:key="pref_recents_meminfo"
+        android:title="@string/recents_meminfo_title"
+        android:defaultValue="false"
+        android:persistent="true" />
+
 </androidx.preference.PreferenceScreen>
